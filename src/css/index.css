@@ -1,0 +1,172 @@
+.container-banner{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.content{
+    width: 86%;
+    background: #93787D;
+    border-radius: 2rem;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+}
+
+
+
+/* Estilos de banner  */
+
+.img-banner{
+    background-image: url(../img/perfil.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.text-rotate{
+    position: relative;
+    margin-top: 5rem;
+    width: 140%;
+    transform: rotate(90deg);
+}
+
+
+.text-banner{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+}
+
+.text-bottom-banner{
+    margin-top: 80px;
+    color: white;
+}
+
+
+.container-banner-text{
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+.container-icons-social-media{
+    margin-top: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.nav-responsive{
+    display: none;
+}
+
+@media (max-width :1200px) {
+    .text-banner{
+        position: absolute;
+        font-size: 50px;
+        color: white;
+    }
+}
+
+@media (max-width :768px) {
+    .container-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    .text-banner{
+        font-size: 40px;
+        color: white;
+        position: relative;
+    }
+    .text-bottom-banner{
+        margin-top: 0%;
+        color: white;
+    }
+    .container-banner-text{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 4%;
+    }
+    .container-icons-social-media{
+        margin-top: 10%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+}
+
+
+@media (max-width: 425px) {
+    .container-banner-text{
+        padding: 5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .img-banner{
+        background-image: url(../img/perfil.jpg);
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .container-icons-social-media{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+/* Estilos de projects */
+
+.img-projects{
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+
+@media (max-width : 425px) {
+    .img-projects{
+        width: 100%;
+        min-height: 150px;
+        max-height: 150px;
+    }
+}
+
+
+.container-nav-res{
+    position: absolute;
+    transform: translateY(-90px);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    animation: 0.7s entrar;
+}
+
+
+@keyframes entrar {
+    100%{
+        transform: translateY(-90px);
+    }
+    0%{
+        transform: translateY(-1000px);
+    }
+}
