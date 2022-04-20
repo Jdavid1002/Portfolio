@@ -5,7 +5,7 @@ import JS from '../img/JavaScript.png'
 import imgReact from '../img/react.png'
 import imgNode from '../img/node.png'
 import imgRedux from '../img/redux.png'
-import perfil from '../img/Foto-perfil.jpg'
+import perfil from '../img/fotoPerfil.jpg'
 import sql from '../img/sql.png'
 import firebase from '../img/firebase.png'
 
@@ -13,15 +13,16 @@ const AboutMe = () => {
     return (
         <div className="p-5" >
             <div className="d-flex-between" >
-                <div className="w-20" >
+                <div className="w-30" >
                     <img src={perfil} className="w-100 rounded-circle" alt="" />
                 </div>
-                <div className="w-90 p-4" >
+                <div className="w-90 p-4 text-white" >
                     <h2> ¿Quien Soy? </h2>
-                    <p className="mt-2" > Mi nombre es Juan David Ramirez Monje tengo 18 años, nací y vivo en la ciudad de Bogotá Colombia. Actualmente soy estudiante de analisis y desarrollo de sistemas de la información. Además de ser desarrollador frontend tambien soy vendedor de productos y servicios graduado en el SENA. Me considero un programador competitivo, autodidacta, social, con una gran logica para la solución de problemas de software y de la vida en general.  </p>
+                    <p className="mt-2" > Nací el 10 de Febrero del 2003 en Bogotá Colombia, desde pequeñín tuve una gran curiosidad por la tecnología. Curiosidad que eventualmente se convertiría en pasión. Empecé en el mundo de la programación a mis 17 años y aproveche el año de pandemia para aprender por mi propia cuenta desarrollo de aplicaciones web, tanto frontend como backend. </p>
+                    <p className="mt-2" >Tengo gran interés en aprender inteligencia artificial y ciencias de datos. interés, que eventualmente se convertirá en conocimientos profundos y desarrollo de nuevos proyectos.</p>
                 </div>
             </div>
-            <div className="mt-5" >
+            <div className="mt-5 text-white" >
                 <h2> ¿Cuales son mis habilidades? </h2>
                 <p className="mt-3" >Busco conseguir más conocimientos técnicos cada que toco código, al pasar el tiempo he conseguido mejorar mis habilidades técnicas y de solución de problemas, con el fin de ser mejor programador cada día y seguir mejorando en cada proyecto. </p>
                 <div className="grid-4 mt-3" >

@@ -1,6 +1,6 @@
 :root{
 	--primary-text-color : black ;
-	--background-primary : #93787D  ;
+	--background-primary : #3E486A  ;
 }
 
 
@@ -14,7 +14,7 @@
 }
 
 body{
-	background: rgba(187, 153, 160, 0.44); 
+	background: #3e486a9e ; 
 	font-family: Raleway;
 	font-size: 110%;
     color:black;
