@@ -1,15 +1,22 @@
 import React from 'react';
-import Content from './views/Content'
-import Navbar from './views/Navbar';
-import NavResponsive from './views/navResponsive';
+import Navbar from './components/Navbar';
+import Window from './components/Window';
+import {useSelector} from 'react-redux';
+import Proyects from './components/Proyects';
+import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
+  const interfaz = useSelector(state => state.interfaz);
+
   return (
-    <div>
-      <NavResponsive />
-      <div className="content"  >
-        <Content />
-        <Navbar />
+    <div className='Portfolio' >
+      <Navbar />
+      <div className='containerPortfolio' >
+        {interfaz === 'HOME' &&     <Window />}
+        {interfaz === 'PROYECTS' && <Proyects />}
+        {interfaz === 'SKILLS' &&  <Skills />}
+        {interfaz === 'ABOUT_ME' && <About />}
       </div>
     </div>
   );
