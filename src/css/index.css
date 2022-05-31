@@ -58,6 +58,7 @@ body{
   -webkit-box-shadow: 0px -3px 15px -1px rgba(255, 255, 255, 0.42); 
   box-shadow: 0px -3px 15px -1px rgba(255, 255, 255, 0.42);
   animation: slidein 1.5s ease-in-out;
+  padding: 20px;
 }
 
 
@@ -213,4 +214,115 @@ body{
   height: 75%;
   border-radius: 100%;
   object-fit: cover;
+}
+
+
+/* Responsive */
+
+
+@media (min-width: 1024px) {
+  .AboutContainer_ContainerImage_image{
+    width:80%;
+    max-width: 320px;
+    height: 80%;
+    max-height: 320px;
+  }
+  .AboutContainer_ContainerText{
+    margin: 120px 0px 0px 0px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .AboutContainer{
+    width: 90%;
+  }
+
+  .AboutContainer_ContainerImage_image{
+    width: 90%;
+    max-width: 320px;
+    height: 80%;
+  }
+
+  .containerPortfolio__Skills{
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  .containerPortfolio__Skills__containerItems__item{
+    font-size: 1em;
+  }
+
+}
+
+
+@media (max-width: 768px){
+  .containerPortfolio__window{
+    width: 80%;
+    height: 50%;
+  }
+  .window__containerText{
+    font-size: 0.9rem;
+  }
+  .containerPortfolio__Proyect{
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPortfolio__Proyect_card{
+    max-height: 500px;
+  }
+
+  .AboutContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AboutContainer_ContainerText{
+    margin: 40px 0px 0px 0px;
+  }
+
+  .AboutContainer_ContainerImage{
+    margin: 70% 0px 0px 0px;
+  }
+  .AboutContainer_ContainerImage_image{
+    width: 70%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  .containerPortfolio__Skills__containerItems{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerPortfolio__Skills__containerItems__item{
+    height: 60px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .containerPortfolio__Skills__title{
+    margin: 40px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 425px){
+  .AboutContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AboutContainer_ContainerImage{
+    margin: 100% 0px 0px 0px;
+  }
+
+  .AboutContainer_ContainerImage_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+  }
 }

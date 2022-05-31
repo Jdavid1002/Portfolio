@@ -32,3 +32,12 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .containerNavbar{
+    height: 80px;
+  }
+  .containerNavbar_options{
+    font-size: 0.9rem;
+  }
+}
