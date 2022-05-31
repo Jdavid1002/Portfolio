@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.88b79cea.chunk.css",
+    "main.css": "/Portfolio/static/css/main.225a3886.chunk.css",
     "main.js": "/Portfolio/static/js/main.4145b991.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.4145b991.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c74a019d.js",
@@ -8,7 +8,7 @@
     "static/js/2.89f23246.chunk.js": "/Portfolio/static/js/2.89f23246.chunk.js",
     "static/js/2.89f23246.chunk.js.map": "/Portfolio/static/js/2.89f23246.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.88b79cea.chunk.css.map": "/Portfolio/static/css/main.88b79cea.chunk.css.map",
+    "static/css/main.225a3886.chunk.css.map": "/Portfolio/static/css/main.225a3886.chunk.css.map",
     "static/js/2.89f23246.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.89f23246.chunk.js.LICENSE.txt",
     "static/media/bimo.fab6e500.jpg": "/Portfolio/static/media/bimo.fab6e500.jpg",
     "static/media/chat.c2233704.jpg": "/Portfolio/static/media/chat.c2233704.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c74a019d.js",
     "static/js/2.89f23246.chunk.js",
-    "static/css/main.88b79cea.chunk.css",
+    "static/css/main.225a3886.chunk.css",
     "static/js/main.4145b991.chunk.js"
   ]
 }
