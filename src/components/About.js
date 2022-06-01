@@ -18,10 +18,10 @@ const About = () => {
         <p> But when I'm not developing software, i loved practice sports, in specific soccer, keeping an active body is a requirement for my mind. My other passions in the life is Learning and teaching and my life objective everyday is the productivity. </p>
         <br/>
         <p> Currently, I am a Frontend Developer at Akelab, a startup dedicated to knowledge management in Colombia.</p>
-        <button className='button__global'>
+        <button className='button__global' onClick={() => window.open("https://drive.google.com/u/0/uc?id=1iy4lXAkpTvs8b6f9cPyqhgGSgV94JvOT&export=download")} >
           <p>Resume</p>
         </button>
-        <button className='button__global' >
+        <button className='button__global' onClick={() => window.open("https://www.linkedin.com/in/juan-david-ramirez-monje-7630b31aa/")} >
           <p>Linkedin</p>
         </button>
       </div>
